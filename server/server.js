@@ -1,3 +1,4 @@
+requires('dotenv').config();
 const express = require('express');
 const cors = require('cors')
 const lyricsFinder = require('lyrics-finder')
@@ -13,9 +14,9 @@ app.use(express.json())
 app.post('/refresh', (req, res)=>{
     const refreshToken = req.body.refreshToken
     const spotifyApi = new spotifyWebApi({
-        redirectUri: 'http://localhost:3000',
-        clientId: '3c3f72516c2c4823b6e892334f706b8b',
-        clientSecret: '3242e208bf25459db4d56ddedb085f56',
+        redirectUri: process.env.REDIRECT_URI,
+        clientId: process.env.CLIENT_ID,
+        clientSecret: process.env.CLIENT_SECRET,
         refreshToken
     })
     spotifyApi
@@ -35,9 +36,9 @@ app.post('/refresh', (req, res)=>{
 app.post('/login', (req,res) =>{
     const code = req.body.code
     const spotifyApi = new spotifyWebApi({
-        redirectUri: 'http://localhost:3000',
-        clientId: '3c3f72516c2c4823b6e892334f706b8b',
-        clientSecret: '3242e208bf25459db4d56ddedb085f56',
+        redirectUri: process.env.REDIRECT_URI,
+        clientId: process.env.CLIENT_ID,
+        clientSecret: process.env.CLIENT_SECRET,
     })
     spotifyApi.authorizationCodeGrant(code)
     .then(data =>{
