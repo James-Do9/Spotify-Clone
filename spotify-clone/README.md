@@ -1,3 +1,7 @@
+#Spotify Clone
+This project is a React.js app that uses the Spotify API to generate a platform that functions similarly to Spotify.
+The users are only able to sign in and use the app if they have Spotify premium (Spotify makes the rules not me).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
