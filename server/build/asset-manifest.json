@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09c736ea.chunk.css",
+    "main.js": "/static/js/main.4f3014e2.chunk.js",
+    "main.js.map": "/static/js/main.4f3014e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3150531d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3150531d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d963cd69.chunk.js": "/static/js/2.d963cd69.chunk.js",
+    "static/js/2.d963cd69.chunk.js.map": "/static/js/2.d963cd69.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.09c736ea.chunk.css.map": "/static/css/main.09c736ea.chunk.css.map",
+    "static/js/2.d963cd69.chunk.js.LICENSE.txt": "/static/js/2.d963cd69.chunk.js.LICENSE.txt",
+    "static/media/ariana-grande-positions.32a226be.png": "/static/media/ariana-grande-positions.32a226be.png",
+    "static/media/audio-player.34d30d07.svg": "/static/media/audio-player.34d30d07.svg",
+    "static/media/bad-bunny.a524743c.png": "/static/media/bad-bunny.a524743c.png",
+    "static/media/billie-eilish.ffab625d.png": "/static/media/billie-eilish.ffab625d.png",
+    "static/media/bts-mos.636fecde.png": "/static/media/bts-mos.636fecde.png",
+    "static/media/dua-lipa-FN.a537c49f.png": "/static/media/dua-lipa-FN.a537c49f.png",
+    "static/media/harry-styles-fl.0e1f10d8.png": "/static/media/harry-styles-fl.0e1f10d8.png",
+    "static/media/juice-wrld-lnd.49a147e4.png": "/static/media/juice-wrld-lnd.49a147e4.png",
+    "static/media/post-malone-hb.c17f5224.png": "/static/media/post-malone-hb.c17f5224.png",
+    "static/media/spotify.f3214d04.png": "/static/media/spotify.f3214d04.png",
+    "static/media/the-weeknd-ah.e7b180a7.png": "/static/media/the-weeknd-ah.e7b180a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3150531d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d963cd69.chunk.js",
+    "static/css/main.09c736ea.chunk.css",
+    "static/js/main.4f3014e2.chunk.js"
+  ]
+}
