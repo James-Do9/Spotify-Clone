@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const path = require('path');
 const cors = require('cors');
 const lyricsFinder = require('lyrics-finder');
 // const bodyParser = require('body-parser')
@@ -59,17 +58,4 @@ app.get('/lyrics', async (req, res)=>{
     const lyrics = (await lyricsFinder(req.query.artist, req.query.track)) ||'No lyrics found'
     res.json({lyrics})
 })
-app.listen(3001)
-
-if(process.env.NODE_ENV === "production"){
-    //Set static folder
-    app.use(express.static("server/build"));
-    app.get("*", (req, res) =>{
-        res.sendFile(path.resolve(__dirname, "server", "build", "index.html" ));
-    });
-}
-
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => console.log(`Sever started on port ${PORT}`));
+app.listen(3001);
